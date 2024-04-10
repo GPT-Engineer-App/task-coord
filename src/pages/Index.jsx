@@ -82,22 +82,22 @@ const Index = () => {
       </Modal>
 
       <Flex mt={8} justifyContent="space-between">
-        <Box p={4} borderWidth={1} borderRadius="lg">
+        <Box p={4} borderWidth={1} borderRadius="lg" as="a" href="/task-management">
           <Text fontWeight="bold">Task Management</Text>
         </Box>
-        <Box p={4} borderWidth={1} borderRadius="lg">
+        <Box p={4} borderWidth={1} borderRadius="lg" as="a" href="/collaboration-tools">
           <Text fontWeight="bold">Collaboration Tools</Text>
         </Box>
-        <Box p={4} borderWidth={1} borderRadius="lg">
+        <Box p={4} borderWidth={1} borderRadius="lg" as="a" href="/project-planning">
           <Text fontWeight="bold">Project Planning</Text>
         </Box>
-        <Box p={4} borderWidth={1} borderRadius="lg">
+        <Box p={4} borderWidth={1} borderRadius="lg" as="a" href="/time-tracking">
           <Text fontWeight="bold">Time Tracking</Text>
         </Box>
-        <Box p={4} borderWidth={1} borderRadius="lg">
+        <Box p={4} borderWidth={1} borderRadius="lg" as="a" href="/integrations">
           <Text fontWeight="bold">Integrations</Text>
         </Box>
-        <Box p={4} borderWidth={1} borderRadius="lg">
+        <Box p={4} borderWidth={1} borderRadius="lg" as="a" href="/analytics">
           <Text fontWeight="bold">Analytics</Text>
         </Box>
       </Flex>
